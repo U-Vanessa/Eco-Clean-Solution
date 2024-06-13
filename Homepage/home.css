@@ -1,0 +1,133 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url('https://reasonstobecheerful.world/wp-content/uploads/2021/12/47446103712_626af4b7f1_k-1024x785.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    
+}
+
+.header-top {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #252525;
+    color: #fff;
+    position: sticky;
+    
+}
+
+.header-main nav{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: rgba(12, 12, 12, 0);
+}
+.header-main nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+.header-main nav ul li {
+    float: left;
+    padding: 4px;
+    margin: 4px;
+}
+.header-main nav ul li a{
+    color: white;
+}
+
+.header-main nav ul li a:hover {
+    background-color: #111;
+}
+
+.header-main button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('') no-repeat center center/cover;
+    color: #0f0f0fe8;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services, .about, .clients, .blog {
+    padding: 40px 20px;
+    background: rgba(109, 106, 106, 0.281);
+}
+
+.services h2, .about h2, .clients h2, .blog h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-list, .client-list, .blog-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service, .client, .blog-post {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+    border-radius: 5px;
+    min-width: 200px;
+}
+.about{
+    
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="userlogin.css">
+</head>
+<body>
+    <div class="container">
+        <form id="loginForm">
+            <nav>
+            <h2>Create Account</h2>
+            </nav>
+
+            <h3>Person information</h3>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required>
+            
+            <label for="secondName">Second Name</label>
+            <input type="text" id="secondName" name="secondName" required>
+            
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+            
+            <h3>Location</h3>
+            <label for="district">District</label>
+            <input type="text" id="district" name="district" required>
+            
+            <label for="sector">Sector</label>
+            <input type="text" id="sector" name="sector" required>
+            
+            <label for="cell">Cell</label>
+            <input type="text" id="cell" name="cell" required>
+            
+            <label for="village">Village</label>
+            <input type="text" id="village" name="village" required>
+            
+            <label for="id">ID</label>
+            <input type="text" id="id" name="id" required>
+            
+            <label for="newPassword">New Password</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+            
+            <label for="confirmPassword">Confirm New Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+            <footer>            
+            <button type="submit">Create Account</button>
+            </footer>
+        </form>
+    </div>
+    <script src="userlogin.js"></script>
+</body>
+</html>
